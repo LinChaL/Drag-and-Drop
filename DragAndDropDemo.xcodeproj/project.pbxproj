@@ -1,0 +1,1152 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E656B629D2A2490CAD9105A /* libPods-DragAndDropDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DECD4D42135BDFDCA77E3F06 /* libPods-DragAndDropDemo.a */; };
+		68FA5CF199B3243E5C4C0BA3 /* libPods-DragAndDropDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A81A450FB2CE1DC522021E /* libPods-DragAndDropDemoTests.a */; };
+		74C939A28C89973D2FA78CFF /* libPods-DragAndDropDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DEEF08EDB3D34E3AA3E63B /* libPods-DragAndDropDemoUITests.a */; };
+		F34E36821FECA5A300045E49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F34E36811FECA5A300045E49 /* AppDelegate.m */; };
+		F34E36881FECA5A300045E49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F34E36861FECA5A300045E49 /* Main.storyboard */; };
+		F34E368A1FECA5A300045E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F34E36891FECA5A300045E49 /* Assets.xcassets */; };
+		F34E368D1FECA5A300045E49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F34E368B1FECA5A300045E49 /* LaunchScreen.storyboard */; };
+		F34E36901FECA5A300045E49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F34E368F1FECA5A300045E49 /* main.m */; };
+		F34E369A1FECA5A300045E49 /* DragAndDropDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F34E36991FECA5A300045E49 /* DragAndDropDemoTests.m */; };
+		F34E36A51FECA5A300045E49 /* DragAndDropDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F34E36A41FECA5A300045E49 /* DragAndDropDemoUITests.m */; };
+		F34E36B41FECB4C500045E49 /* DragAndDropController.m in Sources */ = {isa = PBXBuildFile; fileRef = F34E36B31FECB4C500045E49 /* DragAndDropController.m */; };
+		F34E36C31FECE8F400045E49 /* ProviderReadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F34E36BB1FECE8F300045E49 /* ProviderReadItem.m */; };
+		F34E36C41FECE8F400045E49 /* ProviderRead.m in Sources */ = {isa = PBXBuildFile; fileRef = F34E36BE1FECE8F400045E49 /* ProviderRead.m */; };
+		F34E36C51FECE8F400045E49 /* ProviderReadVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = F34E36BF1FECE8F400045E49 /* ProviderReadVideo.m */; };
+		F34E36C61FECE8F400045E49 /* ProviderReadFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = F34E36C01FECE8F400045E49 /* ProviderReadFolder.m */; };
+		F34E36C91FED034B00045E49 /* DocUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F34E36C81FED034B00045E49 /* DocUtils.m */; };
+		F35516921FED1AAD004E2D6A /* libMasonry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F355168B1FED1AA0004E2D6A /* libMasonry.a */; };
+		F35BD9CC1FFB273200DEBC4A /* AttachView.m in Sources */ = {isa = PBXBuildFile; fileRef = F35BD9CB1FFB273200DEBC4A /* AttachView.m */; };
+		F370A5EA2023E825002C9F1B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F370A5E52023E825002C9F1B /* README.md */; };
+		F3AD76581FF2673300BFF74D /* ProviderWrite.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AD76521FF2673300BFF74D /* ProviderWrite.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F34E36961FECA5A300045E49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F34E36751FECA5A300045E49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F34E367C1FECA5A300045E49;
+			remoteInfo = DragAndDropDemo;
+		};
+		F34E36A11FECA5A300045E49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F34E36751FECA5A300045E49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F34E367C1FECA5A300045E49;
+			remoteInfo = DragAndDropDemo;
+		};
+		F355168A1FED1AA0004E2D6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35516241FED1AA0004E2D6A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0DFEE821D9ADE5ABF580CEAE9BCCDEC;
+			remoteInfo = Masonry;
+		};
+		F355168C1FED1AA0004E2D6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35516241FED1AA0004E2D6A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B112F0B5DA09FDEDB0CA689644CA571;
+			remoteInfo = "Pods-DragAndDropDemo";
+		};
+		F355168E1FED1AA0004E2D6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35516241FED1AA0004E2D6A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 080D950576EC6F633EF4F31CC482BDF2;
+			remoteInfo = "Pods-DragAndDropDemoTests";
+		};
+		F35516901FED1AA0004E2D6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35516241FED1AA0004E2D6A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 38C8B98A612161D9CEE82E0195ECB6F4;
+			remoteInfo = "Pods-DragAndDropDemoUITests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D86928F7CD3130D6950B5FA /* Pods-DragAndDropDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragAndDropDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DragAndDropDemo/Pods-DragAndDropDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		47DEEF08EDB3D34E3AA3E63B /* libPods-DragAndDropDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DragAndDropDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC6CA38F6D9E3FB54DE76CB /* Pods-DragAndDropDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragAndDropDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DragAndDropDemo/Pods-DragAndDropDemo.release.xcconfig"; sourceTree = "<group>"; };
+		601D2FCD4ACF653215C0F9FD /* Pods-DragAndDropDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragAndDropDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DragAndDropDemoTests/Pods-DragAndDropDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		68A81A450FB2CE1DC522021E /* libPods-DragAndDropDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DragAndDropDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D847A91DB0428C6EFD91BC /* Pods-DragAndDropDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragAndDropDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DragAndDropDemoUITests/Pods-DragAndDropDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CEA63218AD3B44752C825323 /* Pods-DragAndDropDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragAndDropDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DragAndDropDemoTests/Pods-DragAndDropDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DECD4D42135BDFDCA77E3F06 /* libPods-DragAndDropDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DragAndDropDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40A5EFD803440D39F1D8BC6 /* Pods-DragAndDropDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragAndDropDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DragAndDropDemoUITests/Pods-DragAndDropDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F34E367D1FECA5A300045E49 /* DragAndDropDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragAndDropDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34E36801FECA5A300045E49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F34E36811FECA5A300045E49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F34E36871FECA5A300045E49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F34E36891FECA5A300045E49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F34E368C1FECA5A300045E49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F34E368E1FECA5A300045E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F34E368F1FECA5A300045E49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F34E36951FECA5A300045E49 /* DragAndDropDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragAndDropDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34E36991FECA5A300045E49 /* DragAndDropDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragAndDropDemoTests.m; sourceTree = "<group>"; };
+		F34E369B1FECA5A300045E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F34E36A01FECA5A300045E49 /* DragAndDropDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragAndDropDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34E36A41FECA5A300045E49 /* DragAndDropDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragAndDropDemoUITests.m; sourceTree = "<group>"; };
+		F34E36A61FECA5A300045E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F34E36B21FECB4C500045E49 /* DragAndDropController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DragAndDropController.h; sourceTree = "<group>"; };
+		F34E36B31FECB4C500045E49 /* DragAndDropController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragAndDropController.m; sourceTree = "<group>"; };
+		F34E36BB1FECE8F300045E49 /* ProviderReadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProviderReadItem.m; sourceTree = "<group>"; };
+		F34E36BC1FECE8F400045E49 /* ProviderReadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProviderReadItem.h; sourceTree = "<group>"; };
+		F34E36BD1FECE8F400045E49 /* ProviderReadVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProviderReadVideo.h; sourceTree = "<group>"; };
+		F34E36BE1FECE8F400045E49 /* ProviderRead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProviderRead.m; sourceTree = "<group>"; };
+		F34E36BF1FECE8F400045E49 /* ProviderReadVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProviderReadVideo.m; sourceTree = "<group>"; };
+		F34E36C01FECE8F400045E49 /* ProviderReadFolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProviderReadFolder.m; sourceTree = "<group>"; };
+		F34E36C11FECE8F400045E49 /* ProviderRead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProviderRead.h; sourceTree = "<group>"; };
+		F34E36C21FECE8F400045E49 /* ProviderReadFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProviderReadFolder.h; sourceTree = "<group>"; };
+		F34E36C71FED034B00045E49 /* DocUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocUtils.h; sourceTree = "<group>"; };
+		F34E36C81FED034B00045E49 /* DocUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocUtils.m; sourceTree = "<group>"; };
+		F35516241FED1AA0004E2D6A /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		F35516291FED1AA0004E2D6A /* Pods-DragAndDropDemo.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-DragAndDropDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F355162A1FED1AA0004E2D6A /* Pods-DragAndDropDemo-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-DragAndDropDemo-frameworks.sh"; sourceTree = "<group>"; };
+		F355162B1FED1AA0004E2D6A /* Pods-DragAndDropDemo-acknowledgements.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Pods-DragAndDropDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F355162C1FED1AA0004E2D6A /* Pods-DragAndDropDemo-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Pods-DragAndDropDemo-dummy.m"; sourceTree = "<group>"; };
+		F355162D1FED1AA0004E2D6A /* Pods-DragAndDropDemo-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-DragAndDropDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		F355162E1FED1AA0004E2D6A /* Pods-DragAndDropDemo.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-DragAndDropDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F355162F1FED1AA0004E2D6A /* Pods-DragAndDropDemo-resources.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-DragAndDropDemo-resources.sh"; sourceTree = "<group>"; };
+		F35516311FED1AA0004E2D6A /* Masonry-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		F35516321FED1AA0004E2D6A /* Masonry.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		F35516331FED1AA0004E2D6A /* Masonry-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		F35516351FED1AA0004E2D6A /* Pods-DragAndDropDemoUITests.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-DragAndDropDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F35516361FED1AA0004E2D6A /* Pods-DragAndDropDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-DragAndDropDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F35516371FED1AA0004E2D6A /* Pods-DragAndDropDemoUITests-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Pods-DragAndDropDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		F35516381FED1AA0004E2D6A /* Pods-DragAndDropDemoUITests-resources.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-DragAndDropDemoUITests-resources.sh"; sourceTree = "<group>"; };
+		F35516391FED1AA0004E2D6A /* Pods-DragAndDropDemoUITests-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-DragAndDropDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F355163A1FED1AA0004E2D6A /* Pods-DragAndDropDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Pods-DragAndDropDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F355163B1FED1AA0004E2D6A /* Pods-DragAndDropDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-DragAndDropDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F355163D1FED1AA0004E2D6A /* Pods-DragAndDropDemoTests-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-DragAndDropDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		F355163E1FED1AA0004E2D6A /* Pods-DragAndDropDemoTests-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Pods-DragAndDropDemoTests-dummy.m"; sourceTree = "<group>"; };
+		F355163F1FED1AA0004E2D6A /* Pods-DragAndDropDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Pods-DragAndDropDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F35516401FED1AA0004E2D6A /* Pods-DragAndDropDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-DragAndDropDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F35516411FED1AA0004E2D6A /* Pods-DragAndDropDemoTests.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-DragAndDropDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F35516421FED1AA0004E2D6A /* Pods-DragAndDropDemoTests.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-DragAndDropDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F35516431FED1AA0004E2D6A /* Pods-DragAndDropDemoTests-resources.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-DragAndDropDemoTests-resources.sh"; sourceTree = "<group>"; };
+		F35516441FED1AA0004E2D6A /* Manifest.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		F35516471FED1AA0004E2D6A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F35516491FED1AA0004E2D6A /* MASCompositeConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		F355164A1FED1AA0004E2D6A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		F355164B1FED1AA0004E2D6A /* MASConstraint+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		F355164C1FED1AA0004E2D6A /* MASLayoutConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		F355164D1FED1AA0004E2D6A /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F355164E1FED1AA0004E2D6A /* MASConstraintMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		F355164F1FED1AA0004E2D6A /* View+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		F35516501FED1AA0004E2D6A /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		F35516511FED1AA0004E2D6A /* MASUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		F35516521FED1AA0004E2D6A /* MASViewAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		F35516531FED1AA0004E2D6A /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		F35516541FED1AA0004E2D6A /* MASViewConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		F35516551FED1AA0004E2D6A /* MASConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		F35516561FED1AA0004E2D6A /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		F35516571FED1AA0004E2D6A /* MASCompositeConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		F35516581FED1AA0004E2D6A /* MASConstraintMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		F35516591FED1AA0004E2D6A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		F355165A1FED1AA0004E2D6A /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		F355165B1FED1AA0004E2D6A /* View+MASAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		F355165C1FED1AA0004E2D6A /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F355165D1FED1AA0004E2D6A /* Masonry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		F355165E1FED1AA0004E2D6A /* MASConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		F355165F1FED1AA0004E2D6A /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		F35516601FED1AA0004E2D6A /* MASViewConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		F35516611FED1AA0004E2D6A /* MASViewAttribute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		F35516621FED1AA0004E2D6A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F35516661FED1AA0004E2D6A /* MASCompositeConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		F35516671FED1AA0004E2D6A /* MASConstraint+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		F35516681FED1AA0004E2D6A /* MASLayoutConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		F35516691FED1AA0004E2D6A /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F355166A1FED1AA0004E2D6A /* MASConstraintMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		F355166B1FED1AA0004E2D6A /* View+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		F355166C1FED1AA0004E2D6A /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		F355166D1FED1AA0004E2D6A /* MASUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		F355166E1FED1AA0004E2D6A /* MASViewAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		F355166F1FED1AA0004E2D6A /* MASViewConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		F35516701FED1AA0004E2D6A /* MASConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		F35516711FED1AA0004E2D6A /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		F35516721FED1AA0004E2D6A /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F35516731FED1AA0004E2D6A /* Masonry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		F35516741FED1AA0004E2D6A /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		F35516771FED1AA0004E2D6A /* MASCompositeConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		F35516781FED1AA0004E2D6A /* MASConstraint+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		F35516791FED1AA0004E2D6A /* MASLayoutConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		F355167A1FED1AA0004E2D6A /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F355167B1FED1AA0004E2D6A /* MASConstraintMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		F355167C1FED1AA0004E2D6A /* View+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		F355167D1FED1AA0004E2D6A /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		F355167E1FED1AA0004E2D6A /* MASUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		F355167F1FED1AA0004E2D6A /* MASViewAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		F35516801FED1AA0004E2D6A /* MASViewConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		F35516811FED1AA0004E2D6A /* MASConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		F35516821FED1AA0004E2D6A /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		F35516831FED1AA0004E2D6A /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F35516841FED1AA0004E2D6A /* Masonry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		F35516851FED1AA0004E2D6A /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		F35BD9CA1FFB273200DEBC4A /* AttachView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttachView.h; sourceTree = "<group>"; };
+		F35BD9CB1FFB273200DEBC4A /* AttachView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttachView.m; sourceTree = "<group>"; };
+		F370A5E52023E825002C9F1B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		F3AD76521FF2673300BFF74D /* ProviderWrite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProviderWrite.m; sourceTree = "<group>"; };
+		F3AD76571FF2673300BFF74D /* ProviderWrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProviderWrite.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F34E367A1FECA5A300045E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35516921FED1AAD004E2D6A /* libMasonry.a in Frameworks */,
+				3E656B629D2A2490CAD9105A /* libPods-DragAndDropDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34E36921FECA5A300045E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68FA5CF199B3243E5C4C0BA3 /* libPods-DragAndDropDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34E369D1FECA5A300045E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C939A28C89973D2FA78CFF /* libPods-DragAndDropDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C4BA94AE5BC4EC50001D3FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F35516231FED1AA0004E2D6A /* Pods */,
+				DECD4D42135BDFDCA77E3F06 /* libPods-DragAndDropDemo.a */,
+				68A81A450FB2CE1DC522021E /* libPods-DragAndDropDemoTests.a */,
+				47DEEF08EDB3D34E3AA3E63B /* libPods-DragAndDropDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B043986EB8760F0D8AA9216 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D86928F7CD3130D6950B5FA /* Pods-DragAndDropDemo.debug.xcconfig */,
+				4FC6CA38F6D9E3FB54DE76CB /* Pods-DragAndDropDemo.release.xcconfig */,
+				CEA63218AD3B44752C825323 /* Pods-DragAndDropDemoTests.debug.xcconfig */,
+				601D2FCD4ACF653215C0F9FD /* Pods-DragAndDropDemoTests.release.xcconfig */,
+				E40A5EFD803440D39F1D8BC6 /* Pods-DragAndDropDemoUITests.debug.xcconfig */,
+				80D847A91DB0428C6EFD91BC /* Pods-DragAndDropDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F34E36741FECA5A300045E49 = {
+			isa = PBXGroup;
+			children = (
+				F34E367F1FECA5A300045E49 /* DragAndDropDemo */,
+				F34E36981FECA5A300045E49 /* DragAndDropDemoTests */,
+				F34E36A31FECA5A300045E49 /* DragAndDropDemoUITests */,
+				F34E367E1FECA5A300045E49 /* Products */,
+				1C4BA94AE5BC4EC50001D3FD /* Frameworks */,
+				5B043986EB8760F0D8AA9216 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F34E367E1FECA5A300045E49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F34E367D1FECA5A300045E49 /* DragAndDropDemo.app */,
+				F34E36951FECA5A300045E49 /* DragAndDropDemoTests.xctest */,
+				F34E36A01FECA5A300045E49 /* DragAndDropDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F34E367F1FECA5A300045E49 /* DragAndDropDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F34E36801FECA5A300045E49 /* AppDelegate.h */,
+				F34E36811FECA5A300045E49 /* AppDelegate.m */,
+				F34E36861FECA5A300045E49 /* Main.storyboard */,
+				F34E36891FECA5A300045E49 /* Assets.xcassets */,
+				F34E368B1FECA5A300045E49 /* LaunchScreen.storyboard */,
+				F34E368E1FECA5A300045E49 /* Info.plist */,
+				F34E368F1FECA5A300045E49 /* main.m */,
+				F34E36B21FECB4C500045E49 /* DragAndDropController.h */,
+				F34E36B31FECB4C500045E49 /* DragAndDropController.m */,
+				F34E36C11FECE8F400045E49 /* ProviderRead.h */,
+				F34E36BE1FECE8F400045E49 /* ProviderRead.m */,
+				F34E36C21FECE8F400045E49 /* ProviderReadFolder.h */,
+				F34E36C01FECE8F400045E49 /* ProviderReadFolder.m */,
+				F34E36BC1FECE8F400045E49 /* ProviderReadItem.h */,
+				F34E36BB1FECE8F300045E49 /* ProviderReadItem.m */,
+				F34E36BD1FECE8F400045E49 /* ProviderReadVideo.h */,
+				F34E36BF1FECE8F400045E49 /* ProviderReadVideo.m */,
+				F3AD76571FF2673300BFF74D /* ProviderWrite.h */,
+				F3AD76521FF2673300BFF74D /* ProviderWrite.m */,
+				F34E36C71FED034B00045E49 /* DocUtils.h */,
+				F34E36C81FED034B00045E49 /* DocUtils.m */,
+				F35BD9CA1FFB273200DEBC4A /* AttachView.h */,
+				F35BD9CB1FFB273200DEBC4A /* AttachView.m */,
+				F370A5E52023E825002C9F1B /* README.md */,
+			);
+			path = DragAndDropDemo;
+			sourceTree = "<group>";
+		};
+		F34E36981FECA5A300045E49 /* DragAndDropDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F34E36991FECA5A300045E49 /* DragAndDropDemoTests.m */,
+				F34E369B1FECA5A300045E49 /* Info.plist */,
+			);
+			path = DragAndDropDemoTests;
+			sourceTree = "<group>";
+		};
+		F34E36A31FECA5A300045E49 /* DragAndDropDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F34E36A41FECA5A300045E49 /* DragAndDropDemoUITests.m */,
+				F34E36A61FECA5A300045E49 /* Info.plist */,
+			);
+			path = DragAndDropDemoUITests;
+			sourceTree = "<group>";
+		};
+		F35516231FED1AA0004E2D6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F35516241FED1AA0004E2D6A /* Pods.xcodeproj */,
+				F35516271FED1AA0004E2D6A /* Target Support Files */,
+				F35516441FED1AA0004E2D6A /* Manifest.lock */,
+				F35516451FED1AA0004E2D6A /* Local Podspecs */,
+				F35516461FED1AA0004E2D6A /* Masonry */,
+				F35516631FED1AA0004E2D6A /* Headers */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F35516251FED1AA0004E2D6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F355168B1FED1AA0004E2D6A /* libMasonry.a */,
+				F355168D1FED1AA0004E2D6A /* libPods-DragAndDropDemo.a */,
+				F355168F1FED1AA0004E2D6A /* libPods-DragAndDropDemoTests.a */,
+				F35516911FED1AA0004E2D6A /* libPods-DragAndDropDemoUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F35516271FED1AA0004E2D6A /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F35516281FED1AA0004E2D6A /* Pods-DragAndDropDemo */,
+				F35516301FED1AA0004E2D6A /* Masonry */,
+				F35516341FED1AA0004E2D6A /* Pods-DragAndDropDemoUITests */,
+				F355163C1FED1AA0004E2D6A /* Pods-DragAndDropDemoTests */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		F35516281FED1AA0004E2D6A /* Pods-DragAndDropDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F35516291FED1AA0004E2D6A /* Pods-DragAndDropDemo.release.xcconfig */,
+				F355162A1FED1AA0004E2D6A /* Pods-DragAndDropDemo-frameworks.sh */,
+				F355162B1FED1AA0004E2D6A /* Pods-DragAndDropDemo-acknowledgements.markdown */,
+				F355162C1FED1AA0004E2D6A /* Pods-DragAndDropDemo-dummy.m */,
+				F355162D1FED1AA0004E2D6A /* Pods-DragAndDropDemo-acknowledgements.plist */,
+				F355162E1FED1AA0004E2D6A /* Pods-DragAndDropDemo.debug.xcconfig */,
+				F355162F1FED1AA0004E2D6A /* Pods-DragAndDropDemo-resources.sh */,
+			);
+			path = "Pods-DragAndDropDemo";
+			sourceTree = "<group>";
+		};
+		F35516301FED1AA0004E2D6A /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				F35516311FED1AA0004E2D6A /* Masonry-dummy.m */,
+				F35516321FED1AA0004E2D6A /* Masonry.xcconfig */,
+				F35516331FED1AA0004E2D6A /* Masonry-prefix.pch */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		F35516341FED1AA0004E2D6A /* Pods-DragAndDropDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F35516351FED1AA0004E2D6A /* Pods-DragAndDropDemoUITests.release.xcconfig */,
+				F35516361FED1AA0004E2D6A /* Pods-DragAndDropDemoUITests-acknowledgements.plist */,
+				F35516371FED1AA0004E2D6A /* Pods-DragAndDropDemoUITests-dummy.m */,
+				F35516381FED1AA0004E2D6A /* Pods-DragAndDropDemoUITests-resources.sh */,
+				F35516391FED1AA0004E2D6A /* Pods-DragAndDropDemoUITests-frameworks.sh */,
+				F355163A1FED1AA0004E2D6A /* Pods-DragAndDropDemoUITests-acknowledgements.markdown */,
+				F355163B1FED1AA0004E2D6A /* Pods-DragAndDropDemoUITests.debug.xcconfig */,
+			);
+			path = "Pods-DragAndDropDemoUITests";
+			sourceTree = "<group>";
+		};
+		F355163C1FED1AA0004E2D6A /* Pods-DragAndDropDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F355163D1FED1AA0004E2D6A /* Pods-DragAndDropDemoTests-frameworks.sh */,
+				F355163E1FED1AA0004E2D6A /* Pods-DragAndDropDemoTests-dummy.m */,
+				F355163F1FED1AA0004E2D6A /* Pods-DragAndDropDemoTests-acknowledgements.markdown */,
+				F35516401FED1AA0004E2D6A /* Pods-DragAndDropDemoTests-acknowledgements.plist */,
+				F35516411FED1AA0004E2D6A /* Pods-DragAndDropDemoTests.debug.xcconfig */,
+				F35516421FED1AA0004E2D6A /* Pods-DragAndDropDemoTests.release.xcconfig */,
+				F35516431FED1AA0004E2D6A /* Pods-DragAndDropDemoTests-resources.sh */,
+			);
+			path = "Pods-DragAndDropDemoTests";
+			sourceTree = "<group>";
+		};
+		F35516451FED1AA0004E2D6A /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		F35516461FED1AA0004E2D6A /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				F35516471FED1AA0004E2D6A /* LICENSE */,
+				F35516481FED1AA0004E2D6A /* Masonry */,
+				F35516621FED1AA0004E2D6A /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		F35516481FED1AA0004E2D6A /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				F35516491FED1AA0004E2D6A /* MASCompositeConstraint.h */,
+				F355164A1FED1AA0004E2D6A /* NSLayoutConstraint+MASDebugAdditions.m */,
+				F355164B1FED1AA0004E2D6A /* MASConstraint+Private.h */,
+				F355164C1FED1AA0004E2D6A /* MASLayoutConstraint.h */,
+				F355164D1FED1AA0004E2D6A /* NSArray+MASShorthandAdditions.h */,
+				F355164E1FED1AA0004E2D6A /* MASConstraintMaker.h */,
+				F355164F1FED1AA0004E2D6A /* View+MASAdditions.h */,
+				F35516501FED1AA0004E2D6A /* NSArray+MASAdditions.h */,
+				F35516511FED1AA0004E2D6A /* MASUtilities.h */,
+				F35516521FED1AA0004E2D6A /* MASViewAttribute.h */,
+				F35516531FED1AA0004E2D6A /* ViewController+MASAdditions.m */,
+				F35516541FED1AA0004E2D6A /* MASViewConstraint.h */,
+				F35516551FED1AA0004E2D6A /* MASConstraint.h */,
+				F35516561FED1AA0004E2D6A /* NSLayoutConstraint+MASDebugAdditions.h */,
+				F35516571FED1AA0004E2D6A /* MASCompositeConstraint.m */,
+				F35516581FED1AA0004E2D6A /* MASConstraintMaker.m */,
+				F35516591FED1AA0004E2D6A /* MASLayoutConstraint.m */,
+				F355165A1FED1AA0004E2D6A /* NSArray+MASAdditions.m */,
+				F355165B1FED1AA0004E2D6A /* View+MASAdditions.m */,
+				F355165C1FED1AA0004E2D6A /* View+MASShorthandAdditions.h */,
+				F355165D1FED1AA0004E2D6A /* Masonry.h */,
+				F355165E1FED1AA0004E2D6A /* MASConstraint.m */,
+				F355165F1FED1AA0004E2D6A /* ViewController+MASAdditions.h */,
+				F35516601FED1AA0004E2D6A /* MASViewConstraint.m */,
+				F35516611FED1AA0004E2D6A /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		F35516631FED1AA0004E2D6A /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				F35516641FED1AA0004E2D6A /* Public */,
+				F35516751FED1AA0004E2D6A /* Private */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		F35516641FED1AA0004E2D6A /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				F35516651FED1AA0004E2D6A /* Masonry */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		F35516651FED1AA0004E2D6A /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				F35516661FED1AA0004E2D6A /* MASCompositeConstraint.h */,
+				F35516671FED1AA0004E2D6A /* MASConstraint+Private.h */,
+				F35516681FED1AA0004E2D6A /* MASLayoutConstraint.h */,
+				F35516691FED1AA0004E2D6A /* NSArray+MASShorthandAdditions.h */,
+				F355166A1FED1AA0004E2D6A /* MASConstraintMaker.h */,
+				F355166B1FED1AA0004E2D6A /* View+MASAdditions.h */,
+				F355166C1FED1AA0004E2D6A /* NSArray+MASAdditions.h */,
+				F355166D1FED1AA0004E2D6A /* MASUtilities.h */,
+				F355166E1FED1AA0004E2D6A /* MASViewAttribute.h */,
+				F355166F1FED1AA0004E2D6A /* MASViewConstraint.h */,
+				F35516701FED1AA0004E2D6A /* MASConstraint.h */,
+				F35516711FED1AA0004E2D6A /* NSLayoutConstraint+MASDebugAdditions.h */,
+				F35516721FED1AA0004E2D6A /* View+MASShorthandAdditions.h */,
+				F35516731FED1AA0004E2D6A /* Masonry.h */,
+				F35516741FED1AA0004E2D6A /* ViewController+MASAdditions.h */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		F35516751FED1AA0004E2D6A /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				F35516761FED1AA0004E2D6A /* Masonry */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		F35516761FED1AA0004E2D6A /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				F35516771FED1AA0004E2D6A /* MASCompositeConstraint.h */,
+				F35516781FED1AA0004E2D6A /* MASConstraint+Private.h */,
+				F35516791FED1AA0004E2D6A /* MASLayoutConstraint.h */,
+				F355167A1FED1AA0004E2D6A /* NSArray+MASShorthandAdditions.h */,
+				F355167B1FED1AA0004E2D6A /* MASConstraintMaker.h */,
+				F355167C1FED1AA0004E2D6A /* View+MASAdditions.h */,
+				F355167D1FED1AA0004E2D6A /* NSArray+MASAdditions.h */,
+				F355167E1FED1AA0004E2D6A /* MASUtilities.h */,
+				F355167F1FED1AA0004E2D6A /* MASViewAttribute.h */,
+				F35516801FED1AA0004E2D6A /* MASViewConstraint.h */,
+				F35516811FED1AA0004E2D6A /* MASConstraint.h */,
+				F35516821FED1AA0004E2D6A /* NSLayoutConstraint+MASDebugAdditions.h */,
+				F35516831FED1AA0004E2D6A /* View+MASShorthandAdditions.h */,
+				F35516841FED1AA0004E2D6A /* Masonry.h */,
+				F35516851FED1AA0004E2D6A /* ViewController+MASAdditions.h */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F34E367C1FECA5A300045E49 /* DragAndDropDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34E36A91FECA5A300045E49 /* Build configuration list for PBXNativeTarget "DragAndDropDemo" */;
+			buildPhases = (
+				1A9A89868D59405F04B190F0 /* [CP] Check Pods Manifest.lock */,
+				F34E36791FECA5A300045E49 /* Sources */,
+				F34E367A1FECA5A300045E49 /* Frameworks */,
+				F34E367B1FECA5A300045E49 /* Resources */,
+				5B714BCC39931571A9FEB664 /* [CP] Embed Pods Frameworks */,
+				F55AA8AACBED90107A0DE5FB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragAndDropDemo;
+			productName = DragAndDropDemo;
+			productReference = F34E367D1FECA5A300045E49 /* DragAndDropDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F34E36941FECA5A300045E49 /* DragAndDropDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34E36AC1FECA5A300045E49 /* Build configuration list for PBXNativeTarget "DragAndDropDemoTests" */;
+			buildPhases = (
+				196486AE8D299275ADBBC668 /* [CP] Check Pods Manifest.lock */,
+				F34E36911FECA5A300045E49 /* Sources */,
+				F34E36921FECA5A300045E49 /* Frameworks */,
+				F34E36931FECA5A300045E49 /* Resources */,
+				4A847A9567D187A9B37F921F /* [CP] Embed Pods Frameworks */,
+				CDD09E5E641C16E2ABAFE90C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F34E36971FECA5A300045E49 /* PBXTargetDependency */,
+			);
+			name = DragAndDropDemoTests;
+			productName = DragAndDropDemoTests;
+			productReference = F34E36951FECA5A300045E49 /* DragAndDropDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F34E369F1FECA5A300045E49 /* DragAndDropDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34E36AF1FECA5A300045E49 /* Build configuration list for PBXNativeTarget "DragAndDropDemoUITests" */;
+			buildPhases = (
+				C5C182FD331371BE1166D5E0 /* [CP] Check Pods Manifest.lock */,
+				F34E369C1FECA5A300045E49 /* Sources */,
+				F34E369D1FECA5A300045E49 /* Frameworks */,
+				F34E369E1FECA5A300045E49 /* Resources */,
+				154ADDC44F5A0A64187FB365 /* [CP] Embed Pods Frameworks */,
+				9279BAB680EC28B2876AFB81 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F34E36A21FECA5A300045E49 /* PBXTargetDependency */,
+			);
+			name = DragAndDropDemoUITests;
+			productName = DragAndDropDemoUITests;
+			productReference = F34E36A01FECA5A300045E49 /* DragAndDropDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F34E36751FECA5A300045E49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = linchl;
+				TargetAttributes = {
+					F34E367C1FECA5A300045E49 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					F34E36941FECA5A300045E49 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F34E367C1FECA5A300045E49;
+					};
+					F34E369F1FECA5A300045E49 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F34E367C1FECA5A300045E49;
+					};
+				};
+			};
+			buildConfigurationList = F34E36781FECA5A300045E49 /* Build configuration list for PBXProject "DragAndDropDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F34E36741FECA5A300045E49;
+			productRefGroup = F34E367E1FECA5A300045E49 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F35516251FED1AA0004E2D6A /* Products */;
+					ProjectRef = F35516241FED1AA0004E2D6A /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F34E367C1FECA5A300045E49 /* DragAndDropDemo */,
+				F34E36941FECA5A300045E49 /* DragAndDropDemoTests */,
+				F34E369F1FECA5A300045E49 /* DragAndDropDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F355168B1FED1AA0004E2D6A /* libMasonry.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMasonry.a;
+			remoteRef = F355168A1FED1AA0004E2D6A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F355168D1FED1AA0004E2D6A /* libPods-DragAndDropDemo.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-DragAndDropDemo.a";
+			remoteRef = F355168C1FED1AA0004E2D6A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F355168F1FED1AA0004E2D6A /* libPods-DragAndDropDemoTests.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-DragAndDropDemoTests.a";
+			remoteRef = F355168E1FED1AA0004E2D6A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F35516911FED1AA0004E2D6A /* libPods-DragAndDropDemoUITests.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-DragAndDropDemoUITests.a";
+			remoteRef = F35516901FED1AA0004E2D6A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F34E367B1FECA5A300045E49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34E368D1FECA5A300045E49 /* LaunchScreen.storyboard in Resources */,
+				F34E368A1FECA5A300045E49 /* Assets.xcassets in Resources */,
+				F370A5EA2023E825002C9F1B /* README.md in Resources */,
+				F34E36881FECA5A300045E49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34E36931FECA5A300045E49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34E369E1FECA5A300045E49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		154ADDC44F5A0A64187FB365 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragAndDropDemoUITests/Pods-DragAndDropDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		196486AE8D299275ADBBC668 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1A9A89868D59405F04B190F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A847A9567D187A9B37F921F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragAndDropDemoTests/Pods-DragAndDropDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B714BCC39931571A9FEB664 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragAndDropDemo/Pods-DragAndDropDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9279BAB680EC28B2876AFB81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragAndDropDemoUITests/Pods-DragAndDropDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5C182FD331371BE1166D5E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CDD09E5E641C16E2ABAFE90C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragAndDropDemoTests/Pods-DragAndDropDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F55AA8AACBED90107A0DE5FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragAndDropDemo/Pods-DragAndDropDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F34E36791FECA5A300045E49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34E36C41FECE8F400045E49 /* ProviderRead.m in Sources */,
+				F34E36C51FECE8F400045E49 /* ProviderReadVideo.m in Sources */,
+				F34E36C91FED034B00045E49 /* DocUtils.m in Sources */,
+				F34E36C61FECE8F400045E49 /* ProviderReadFolder.m in Sources */,
+				F34E36C31FECE8F400045E49 /* ProviderReadItem.m in Sources */,
+				F34E36B41FECB4C500045E49 /* DragAndDropController.m in Sources */,
+				F34E36901FECA5A300045E49 /* main.m in Sources */,
+				F3AD76581FF2673300BFF74D /* ProviderWrite.m in Sources */,
+				F34E36821FECA5A300045E49 /* AppDelegate.m in Sources */,
+				F35BD9CC1FFB273200DEBC4A /* AttachView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34E36911FECA5A300045E49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34E369A1FECA5A300045E49 /* DragAndDropDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34E369C1FECA5A300045E49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34E36A51FECA5A300045E49 /* DragAndDropDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F34E36971FECA5A300045E49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F34E367C1FECA5A300045E49 /* DragAndDropDemo */;
+			targetProxy = F34E36961FECA5A300045E49 /* PBXContainerItemProxy */;
+		};
+		F34E36A21FECA5A300045E49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F34E367C1FECA5A300045E49 /* DragAndDropDemo */;
+			targetProxy = F34E36A11FECA5A300045E49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F34E36861FECA5A300045E49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F34E36871FECA5A300045E49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F34E368B1FECA5A300045E49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F34E368C1FECA5A300045E49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F34E36A71FECA5A300045E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F34E36A81FECA5A300045E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F34E36AA1FECA5A300045E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D86928F7CD3130D6950B5FA /* Pods-DragAndDropDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2CUZHKARW;
+				INFOPLIST_FILE = DragAndDropDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youdao.DragAndDropDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F34E36AB1FECA5A300045E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FC6CA38F6D9E3FB54DE76CB /* Pods-DragAndDropDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2CUZHKARW;
+				INFOPLIST_FILE = DragAndDropDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youdao.DragAndDropDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F34E36AD1FECA5A300045E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEA63218AD3B44752C825323 /* Pods-DragAndDropDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2CUZHKARW;
+				INFOPLIST_FILE = DragAndDropDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youdao.DragAndDropDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragAndDropDemo.app/DragAndDropDemo";
+			};
+			name = Debug;
+		};
+		F34E36AE1FECA5A300045E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 601D2FCD4ACF653215C0F9FD /* Pods-DragAndDropDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2CUZHKARW;
+				INFOPLIST_FILE = DragAndDropDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youdao.DragAndDropDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragAndDropDemo.app/DragAndDropDemo";
+			};
+			name = Release;
+		};
+		F34E36B01FECA5A300045E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E40A5EFD803440D39F1D8BC6 /* Pods-DragAndDropDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2CUZHKARW;
+				INFOPLIST_FILE = DragAndDropDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youdao.DragAndDropDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DragAndDropDemo;
+			};
+			name = Debug;
+		};
+		F34E36B11FECA5A300045E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D847A91DB0428C6EFD91BC /* Pods-DragAndDropDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2CUZHKARW;
+				INFOPLIST_FILE = DragAndDropDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youdao.DragAndDropDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DragAndDropDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F34E36781FECA5A300045E49 /* Build configuration list for PBXProject "DragAndDropDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34E36A71FECA5A300045E49 /* Debug */,
+				F34E36A81FECA5A300045E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34E36A91FECA5A300045E49 /* Build configuration list for PBXNativeTarget "DragAndDropDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34E36AA1FECA5A300045E49 /* Debug */,
+				F34E36AB1FECA5A300045E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34E36AC1FECA5A300045E49 /* Build configuration list for PBXNativeTarget "DragAndDropDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34E36AD1FECA5A300045E49 /* Debug */,
+				F34E36AE1FECA5A300045E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34E36AF1FECA5A300045E49 /* Build configuration list for PBXNativeTarget "DragAndDropDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34E36B01FECA5A300045E49 /* Debug */,
+				F34E36B11FECA5A300045E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F34E36751FECA5A300045E49 /* Project object */;
+}
