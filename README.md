@@ -11,4 +11,5 @@
 - 多点触控，一种全新的方式来选择多个项目，让你可以快速的同时拿起几个项目。
 - 使用spring-loading，你可以拖动内容，将其悬于Dock或主屏幕的应用图标上，就可以打开并复制内容于该应用。
 ## demo展示
-![image](http://upload-images.jianshu.io/upload_images/6239098-5ea39e7459f3b7cb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![QQ20181108-192917-HD.gif](https://upload-images.jianshu.io/upload_images/6239098-ff0f4942280b74a7.gif?imageMogr2/auto-orient/strip)
+![demo.gif](https://upload-images.jianshu.io/upload_images/6239098-29ff793bae2831c5.gif?imageMogr2/auto-orient/strip)
